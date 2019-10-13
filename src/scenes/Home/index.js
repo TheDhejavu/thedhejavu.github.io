@@ -97,10 +97,15 @@ class Home extends Component{
         <section className="about-section section" id="about">
             <div className="section-panel">
               <h1 className="heading color-text">About me</h1>
-              <p className="slant-text theme-text">{ config.about.text }</p>
+              <p className="slant-text theme-text">
+              { config.about.text }
+              </p>
+            
               <Fade bottom>
                 <p className="text theme-text">
                 { config.about.about }
+                <h6 className="color-text" style={{"paddingTop":"30px","textTransform":"uppercase"}}>What Ayodeji Thinks of success: </h6>
+                I love to think that success is what we make it, and measuring success for me is setting goals, planning the steps require to achieve this goals and effectively implementing that plan. Once i think i have achieved that goal, i've succeeded.
                 </p>
               </Fade>
             </div>
